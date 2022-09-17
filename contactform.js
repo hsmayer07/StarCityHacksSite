@@ -28,7 +28,7 @@ function sendMail(email, name, type, message){
         message: message
   };
 
-  fetch("./email.php", {
+  fetch("./email.go", {
     method: "POST",
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(data)
