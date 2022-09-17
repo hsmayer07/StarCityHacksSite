@@ -28,7 +28,7 @@ function sendMail(email, name, type, message){
         message: message
   };
 
-  fetch("./email.go", {
+  fetch("./api/index.py", {
     method: "POST",
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(data)
