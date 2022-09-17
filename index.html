@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Product example · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/product/">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css">
+
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1" async defer></script>
+
+<header class="site-header sticky-top py-1" style="background-color: #019aaa">
+  <nav class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#" aria-label="Product">
+        <img src="logo.png" width="20px">
+    </a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#mission">Mission</a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#">Info</a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#">Sponsors</a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#">Team</a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#">Contact</a>
+
+  </nav>
+</header>
+
+<main>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center rounded-3 border" style="background-color: #019aaa">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-normald text-white">Star City Hacks</h1>
+      <p class="lead fw-normal text-white">Learn to code and have tons of fun at one of Indiana's largest high school hackthons!</p>
+      <div class="atcb" style="display:none;">
+          {
+            "name":"Star City Hackathon",
+            "description":"Join us to learn to code and have tons of fun at one of Indiana's largest high school hackathons!",
+            "startDate":"2022-12-03",
+            "endDate":"2022-12-03",
+            "startTime":"09:30",
+            "endTime":"19:00",
+            "location":"West Lafayette Jr/Sr High School",
+            "label":"December 3, 2022",
+            "options":[
+              "Apple",
+              "Google",
+              "iCal",
+              "Microsoft365",
+              "MicrosoftTeams",
+              "Outlook.com",
+              "Yahoo"
+            ],
+            "timeZone":"America/Indianapolis",
+            "trigger":"click",
+            "inline":true,
+            "listStyle":"modal",
+            "iCalFileName":"Star-City-hack"
+          }
+        </div>
+    </div>
+
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100">
+
+
+  <div class="bg-light rounded-3 border p-3 p-md-5 m-md-3" id="mission">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Our Mission</h1>
+        <p class="col-md-8 fs-4">Hacking is for everyone (and isn't just taking over other people's stuff). Our free event will provide a launchpad of skills and ideas to make the world a better place. No matter who you are, the Star City Hacks family will welcome you with open arms and provide a safe and welcoming environment.</p>
+
+      </div>
+    </div>
+
+      </div>
+
+      <div class="p-3 p-md-5 m-md-3 bg-light rounded-3 border" id="Info">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Info</h1>
+            <h2 class="display-8" style="text-indent: 5%">The Basics</h2>
+            <ul class="list-group" style="margin-left: 5%">
+              <li class="list-group-item">All Indiana High School students (9-12) are welcome</li>
+              <li class="list-group-item">Thanks to our awsome <a href="#sponsors">sponsors</a> you don't have to pay a dime!</li>
+              <li class="list-group-item">We'll have fun workshops to teach you the ways of the code</li>
+              <li class="list-group-item">All experience levels welcome</li>
+          </ul>
+          <br/>
+          <h2 class="display-8" style="text-indent: 5%">What to bring</h2>
+          <ul class="list-group" style="margin-left: 5%">
+            <li class="list-group-item">Your computer (and charger)
+              <ul class="list-group">
+                  <li class="list-group-item">Minimum Recommend Specs: 4 GB RAM, WiFi Connectivity</li>
+                  <li class="list-group-item">If you don't have these specs, please <a href="#contact">contact us</a></li>
+              </ul>
+          </li>
+            <li class="list-group-item">An ID (school ID or DL would be great!)</li>
+            <li class="list-group-item">Leave any negativity and anything not allowed on school property at home</li>
+        </ul>
+        <br/>
+        <h2 class="display-8" style="text-indent: 5%">Who's Hosting?</h2>
+          <ul class="list-group" style="margin-left: 5%">
+              <li class="list-group-item">The Hack Club chapter at WLHS is hosting. We're a student run club and this is a student run event. We'll have more than enough adult-chaperones to keep everything safe and in order. </li></ul>
+            <br/>
+            <h2 class="display-8" style="text-indent: 5%">Do I need Computer Science experience?</h2>
+            <ul class="list-group" style="margin-left: 5%">
+                <li class="list-group-item">Absolutely not! Whether you've never written a line of code in your life or you're already an expert developer we'll have something for you!</li></ul>
+            <br/>
+            <h2 class="display-8" style="text-indent: 5%">What Will I Do?</h2>
+            <ul class="list-group" style="margin-left: 5%">
+                  <li class="list-group-item">We'll have fun workshops to let you try out something new and plenty of work time to work on games, websites, or anything else you'd like. We'll give cool prizes to outstanding projects. </li></ul>
+            <br/>
+            <h2 class="display-8" style="text-indent: 5%">Where's the event? Is there parking?</h2>
+            <ul class="list-group" style="margin-left: 5%">
+                  <li class="list-group-item">The event will be hosted at the West Lafayette Jr/Sr High School in beautiful West Lafayette, Indiana (home of Purdue University). Whether you bike, drive, or bring a bus, we'll have space for your vehicle. </li></ul>
+          </div>
+
+        </div>
+
+        <div class="bg-light rounded-3 border p-3 p-md-5 m-md-3" id="sponsors">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold">Our Sponsors</h1>
+              <p class="col-md-8 fs-4">Our sponsors are amazing! We thank them for their commitment to our mission and support of our event ❤️</p>
+
+              <p class="col-md-8 fs-6"><i>Want your name and logo here? Consider becoming a sponsor. We could really use your help to make this event amazing!</i></p>
+
+            </div>
+          </div>
+
+          <div class="bg-light rounded-3 border p-3 p-md-5 m-md-3" id="team">
+              <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Our Team</h1>
+                <p class="col-md-8 fs-4">Our team is a group of dedicated and motivated high school students. We want to work with you to make this event amazing. </p>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">Henry Mayer (they/them)</h5>
+                        <p class="card-text">Henry's CS interests lie in creating user-friendly apps and working with hardware to branch the divide between physical and virtual. Outside of CS, they are the presidnet of their school's Debate Team where they spend their time obssesing over ways to make their arguments perfect. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">Kyle Tong (he/him)</h5>
+                        <p class="card-text">"I'm a person" - Kyle Tong, 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">Johnny Shen (he/him)</h5>
+                        <p class="card-text">Johnny's CS interest lies in working with both physical and virtual robots (but not complicated bug fixes). When it's sunny, he enjoys taking walks outside. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">Patrick Li (he/him)</h5>
+                        <p class="card-text">Patrick's CS interest lies in algoriths and theoretical CS, which he enjoys explaining in accessible ways. Outside of CS, he is an officer in the local branch of the Civil Air Patrol (CAP)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">Mahad Faruqi (he/him)</h5>
+                        <p class="card-text">lmao</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="bg-light rounded-3 border p-3 p-md-5 m-md-3" id="contact">
+                <div class="container-fluid py-5">
+                  <h1 class="display-5 fw-bold">Contact Us</h1>
+                  <p class="col-md-8 fs-4">Want to chat? Need to get in touch with us? Drop us a message and we'll get back to you ASAP.</p>
+                  <form>
+                    <div class="form-group">
+                      <label for="name">What's your name?</label>
+                      <input type="name" class="form-control" id="name" placeholder="Jane Doe">
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                      <label for="email">What's your email address?</label>
+                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                      <label for="tupe">How can we help you? ⬇️</label>
+                      <select class="form-control" id="type">
+                        <option>Select...</option>
+                        <option>Sponsorship</option>
+                        <option>Media Request</option>
+                        <option>Event Info</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                      <label for="message">What's up?</label>
+                      <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <br/>
+                    <button id="sendButton" type="sendButton" class="btn btn-primary mb-2">Send!</button>
+                  </form>
+              </div>
+
+</main>
+
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+      <small class="d-block mb-3 text-muted">&copy; 2017–2022</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Cool stuff</a></li>
+        <li><a class="link-secondary" href="#">Random feature</a></li>
+        <li><a class="link-secondary" href="#">Team feature</a></li>
+        <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+        <li><a class="link-secondary" href="#">Another one</a></li>
+        <li><a class="link-secondary" href="#">Last time</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Resource name</a></li>
+        <li><a class="link-secondary" href="#">Resource</a></li>
+        <li><a class="link-secondary" href="#">Another resource</a></li>
+        <li><a class="link-secondary" href="#">Final resource</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Business</a></li>
+        <li><a class="link-secondary" href="#">Education</a></li>
+        <li><a class="link-secondary" href="#">Government</a></li>
+        <li><a class="link-secondary" href="#">Gaming</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Team</a></li>
+        <li><a class="link-secondary" href="#">Locations</a></li>
+        <li><a class="link-secondary" href="#">Privacy</a></li>
+        <li><a class="link-secondary" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./contactform.js"></script>
+
+
+  </body>
+</html>
