@@ -1,5 +1,0 @@
-#!/usr/local/bin/python3.9
-# encoding: utf-8
-
-from cowpy import cow
-cow.main()
