@@ -9,7 +9,7 @@ document.getElementById("sendButton").addEventListener("click", function() {
   let validEmail = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}')
   var validName = name.length > 3 ? true : false;
   var validType = type != "Select..." ? true : false;
-  alert(validType)
+  //alert(validType)
   var validMessage = message.length > 20 ? true : false;
 
   if(validEmail && validName && validType && validMessage) {
