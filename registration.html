@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Star City Hacks is one of Indiana's largest High School Hackathons. Join us in West Lafayette on November 20, 2022!">
+    <meta name="author" content="Henry Mayer">
+    <title>Star City Hacks</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/product/">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Bungee+Shade">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sarabun">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+
+
+      .display-5 {
+        font-family: 'Sarabun';
+      }
+      .display-8 {
+          font-family: 'Sarabun';
+          font-size: "1px";
+      }
+
+      body {
+        font-family: "Inconsolata";
+
+      }
+
+      .atcb, .atcb-text {
+        font-family: 'Sarabun';
+      }
+
+
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1" async defer></script>
+
+<header class="site-header sticky-top py-1 bg-dark">
+  <!--nav class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#" aria-label="Product">
+        <img src="logo.png" width="20px">
+    </a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#mission">Mission</a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#">Info</a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#">Sponsors</a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#">Team</a>
+    <a class="py-2 d-none d-md-inline-block text-black" href="#">Contact</a>
+
+  </nav-->
+  <nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color: #019aaa;">
+  <div class="container">
+    <a class="navbar-brand" href="./index.html">
+      <img src="logo.png" alt="..." height="36">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="./index.html">Home</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center rounded-3 border top-bar" style="background-image: linear-gradient(35deg, hsl(42deg 100% 50%) 0%, hsl(35deg 100% 58%) 7%, hsl(29deg 100% 63%) 13%, hsl(22deg 100% 66%) 19%, hsl(14deg 100% 70%) 24%, hsl(6deg 100% 73%) 30%, hsl(358deg 100% 75%) 37%, hsl(335deg 79% 71%) 44%, hsl(300deg 41% 66%) 52%, hsl(246deg 53% 71%) 61%, hsl(211deg 64% 60%) 72%, hsl(195deg 82% 43%) 85%, hsl(186deg 99% 34%) 100%);">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-1 fw-normald text-white" style="font-family: Bungee Shade">Register Now</h1>
+      <p class="lead fw-normal text-white">Join us on November 20 in West Lafayette at the West Lafayette Jr/Sr High School for a day of coding, food, fun, and prizes! </p>
+      <div class="atcb" style="display:none; font-family: "Sarabun"">
+          {
+            "name":"Star City Hackathon",
+            "description":"Join us to learn to code and have tons of fun at one of Indiana's largest high school hackathons!",
+            "startDate":"2022-11-20",
+            "endDate":"2022-11-20",
+            "startTime":"09:30",
+            "endTime":"19:00",
+            "location":"West Lafayette Jr/Sr High School",
+            "label":"Add to Calendar",
+            "options":[
+              "Apple",
+              "Google",
+              "iCal",
+              "Microsoft365",
+              "MicrosoftTeams",
+              "Outlook.com",
+              "Yahoo"
+            ],
+            "timeZone":"America/Indianapolis",
+            "trigger":"click",
+            "inline":true,
+            "listStyle":"modal",
+            "iCalFileName":"Star-City-hack"
+          }
+        </div>
+        <br/>
+        <br/>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyaVY5pTfSfQhjgiKCWJUPNKDshgGSopyqfhYYi9x80mBM9A/viewform?usp=sf_link" class="btn btn-primary btn-lg btn-block" >Register Yourself</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPMIF6NBn17BlEx7YcMZDeYf2PeJhvDvKjABRDzCRGQriO5w/viewform?usp=sf_link" class="btn btn-primary btn-lg btn-block" >Register a Team</a>
+
+    </div>
+
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100">
+
+
+  <div class="bg-light rounded-3 border p-3 p-md-5 m-md-3" id="logistics">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Event Logistics</h1>
+        <ul class="list-group" style="margin-left: 5%">
+          <li class="list-group-item">The event is at the West Lafayette Jr/Sr High School. The address is 1195 North Grant St. West Lafayette, IN, 47906</li>
+          <li class="list-group-item">Check-in closes at 9:00 am. Please arrive 30 minutes early</li>
+          <li class="list-group-item">We'll have fun workshops to teach you the ways of the code</li>
+          <li class="list-group-item">All experience levels welcome</li>
+          <li class="list-group-item">Visit the <a href="./index.html" >home page</a> for all the info about the event! </li>
+
+      </ul>
+      </div>
+    </div>
+
+      </div>
+
+      </main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./contactform.js"></script>
+
+
+  </body>
+</html>
